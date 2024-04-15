@@ -1,7 +1,7 @@
 {
   "topologies": [
 {
-"xyz": "urea_trimer.xyz"
+"xyz": "paracetamol_trimer.xyz"
 },
 {
 "xyz": "urea_trimer.xyz"
@@ -15,13 +15,13 @@
     "standard_orientation": "None"
   },
   "system": {
-    "max_gpu_memory_mb": 32000
+    "max_gpu_memory_mb": 58000
   },
   "keywords": {
-      "rtat": {"enabled": true},
+      "rtat": {"enabled":false},
         "log": {
             "console": {
-                "level": "Performance"
+                "level": "Verbose"
             }
         },
     "scf": {

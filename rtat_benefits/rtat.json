@@ -4,7 +4,7 @@
 "xyz": "paracetamol_trimer.xyz"
 },
 {
-"xyz": "paracetamol_trimer.xyz"
+"xyz": "urea_trimer.xyz"
 }
   ],
   "driver": "Dynamics",
@@ -21,7 +21,7 @@
       "rtat": {"enabled": true},
         "log": {
             "console": {
-                "level": "Performance"
+                "level": "Verbose"
             }
         },
     "scf": {
