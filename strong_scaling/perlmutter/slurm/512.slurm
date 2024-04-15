@@ -10,6 +10,6 @@
 #SBATCH --gpus-per-node=4
 
 #SBATCH --time=01:00:00
-source perlm_env
+module load hdf5
 
 srun ./exess 80_paracetamol_n512.json
