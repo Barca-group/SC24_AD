@@ -33,7 +33,7 @@
       "convergence_metric": "Energy"
     },
     "dynamics": {
-      "n_timesteps": 10,
+      "n_timesteps": 5,
       "dt": 0.001
     }
   }
