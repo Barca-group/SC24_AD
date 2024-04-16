@@ -1,6 +1,3 @@
-# Reproducing 
+# Artefacts for SC24
 
-The strong and weak scaling inputs *NEED* to be run on frontier and/or Perlmutter respectively. Running on a personal computer or a
-local cluster will results in timeouts. 
-
-The slurm files to submit to both machines are included and just need to be tweaked to use the proper account to charge the node hours to. 
+This repository contains the input files and expected output for the artefacts in our SC 24 submission. All calculations were run on Frontier or Perlmutter, with details provided in the artefact description.
