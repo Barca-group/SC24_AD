@@ -1,0 +1,126 @@
+
+    _____  _  _____    
+   (___  \( )/  ___)      888    888 8888888888 8888888b.  888b     d888 8888888888 .d8888b.  
+     (___ | | ___)        888    888 888        888   Y88b 8888b   d8888 888       d88P  Y88b 
+        /"| ("\           888    888 888        888    888 88888b.d88888 888       Y88b.   
+       ( (| |) )          8888888888 8888888    888   d88P 888Y88888P888 8888888    "Y888b.  
+        `.!' .'           888    888 888        8888888P"  888 Y888P 888 888           "Y88b. 
+         / .'\            888    888 888        888 T88b   888  Y8P  888 888             "888 
+         \|/ /            888    888 888        888  T88b  888   "   888 888       Y88b  d88P 
+          /.<             888    888 8888888888 888   T88b 888       888 8888888888 "Y8888P"   
+         (| |)             
+          | '              
+          `-'                                                                QDX TECHNOLOGIES 
+
+---------------------------------------------------------------------------------------------
+   Melisa Alkan           Giuseppe Barca         Hamish Brown           Jorge Galvez-Vallejo
+   Andrew Gilbert         Min Htoo               Fazeleh Kazemian       Sean Laguna         
+   Jack Miller            Elise Palethorpe       David Poole            Oliver Pulsford     
+   Ross Pure              Christopher Seidl      Joshua Singla          Calum Snowdon       
+   Ryan Stocks            Ryan Swart             Fiona Yu            
+---------------------------------------------------------------------------------------------
+
+Commit no. used 662daa59766df523725d86feeb224a6fdee52b20
+
+Start of Calculation Local time: 2024-03-05 11:11:08
+Start of Calculation UTC time:   2024-03-05 19:11:08
+
+Discarding rank 1052 with local rank 8
+Discarding rank 3482 with local rank 8
+Discarding rank 7235 with local rank 8
+Discarding rank 7676 with local rank 8
+Discarding rank 1133 with local rank 8
+Discarding rank 9134 with local rank 8
+Discarding rank 6434 with local rank 8
+Discarding rank 2546 with local rank 8
+├── Calculation params
+│   ├── Title: sphere
+│   ├── Model
+│   │   ├── Theory level: RIMP2
+│   │   ├── Spin configuration: RESTRICTED
+│   │   ├── Primary basis: cc-pVDZ
+│   │   ├── Auxiliary basis: cc-pVDZ-RIFIT
+│   │   ├── Force cartesian basis sets: True
+│   │   ├── Standard orientation: FULL_SYSTEM
+│   ├── Topologies
+│   │   ├── Number of topologies: 1
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 50
+│   │   │   ├── Batch size: 2560
+│   │   │   ├── DIIS size: 10
+│   │   │   ├── Convergence threshold: 1.000e-08
+│   │   │   ├── Use guess fallback: False
+│   │   │   ├── Convergence metric: DIIS
+│   │   │   ├── Density threshold: 1.000e-10
+│   │   │   ├── RIHF: True
+│   │   ├── Fragmentation keywords
+│   │   │   ├── Fragmented energy type: Total
+│   │   │   ├── Fragmentation level: TRIMER
+│   │   │   ├── Cutoff type: CLOSEST_PAIR
+│   │   │   ├── Fragmentation Cutoffs
+│   │   │   │   ├── Current method
+│   │   │   │   │   ├── DIMER: 1.800
+│   │   │   │   │   ├── TRIMER: 1.400
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Debug keywords
+│   │   │   ├── Dry run: False
+│   │   │   ├── Subfragment XYZ debug: False
+│   │   ├── Export Keywords
+│   │   │   ├── Not exporting any matrices
+│   │   ├── Guess keywords
+│   │   │   ├── Superposition of monomer densities: False
+│   │   │   ├── Superposition of subfragment densities: False
+│   │   │   ├── Basis set projection: False
+│   │   ├── Boundary keywords
+│   │   │   ├── X
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Y
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Z
+│   │   │   │   ├── Type: NONE
+│   │   ├── Logging
+│   │   │   ├── Console logging
+│   │   │   │   ├── Level: LARGE_INFO
+│   │   │   │   ├── Prefix format: 
+│   │   │   ├── File logging
+│   │   │   │   ├── Level: VERBOSE
+│   │   │   │   ├── Prefix format: [%Y-%m-%d %H:%M:%S.{us} r{rank} {level}] 
+│   │   │   │   ├── Directory: /pscratch/sd/j/jg4/jorge-exess/log_aimd_n1024
+│   │   ├── Dynamics Keywords
+│   │   │   ├── Timestep (ps): 0.001
+│   │   │   ├── # timesteps: 3
+│   │   │   ├── Use async timesteps: True
+│   ├── System
+│   │   ├── Max GPU Memory: 30 GB
+│   │   ├── Oversubscribe GPUs: False
+│   │   ├── Teams per node: 4
+│   │   ├── # GPUs per team: 1
+
+
+
+Timestep 0 took 62.457376
+ Total RHF Energy: -40985.7194326124154031
+ Total MP2 OS Energy: -96.3320648845935921
+ Total MP2 SS Energy: -36.1396106444934375
+ Total MP2 Energy: -132.4716755279749520
+ Total MP2 Corrected Energy: -41118.1911078052653465
+Timestep 1 took 60.256665
+ Total RHF Energy: -40991.0759612483889214
+ Total MP2 OS Energy: -96.7034566590514544
+ Total MP2 SS Energy: -36.2372161958387906
+ Total MP2 Energy: -132.9406728538815514
+ Total MP2 Corrected Energy: -41124.0166342704251292
+Timestep 2 took 69.043524
+ Total RHF Energy: -40995.2355976465623826
+ Total MP2 OS Energy: -97.5907358375896763
+ Total MP2 SS Energy: -36.4880760805355848
+ Total MP2 Energy: -134.0788119181155764
+ Total MP2 Corrected Energy: -41129.3144095499592368
+Total processing time 2.1e+02 seconds
+Average timestep time: 60.256665
+Topology 0 time: 195.207625 s, performance: 43.26 PFLOP/s
+Total flops: 8446 PFLOPS
+Performance: 42.8 PFLOP/s
+

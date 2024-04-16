@@ -1,0 +1,119 @@
+
+    _____  _  _____    
+   (___  \( )/  ___)      888    888 8888888888 8888888b.  888b     d888 8888888888 .d8888b.  
+     (___ | | ___)        888    888 888        888   Y88b 8888b   d8888 888       d88P  Y88b 
+        /"| ("\           888    888 888        888    888 88888b.d88888 888       Y88b.   
+       ( (| |) )          8888888888 8888888    888   d88P 888Y88888P888 8888888    "Y888b.  
+        `.!' .'           888    888 888        8888888P"  888 Y888P 888 888           "Y88b. 
+         / .'\            888    888 888        888 T88b   888  Y8P  888 888             "888 
+         \|/ /            888    888 888        888  T88b  888   "   888 888       Y88b  d88P 
+          /.<             888    888 8888888888 888   T88b 888       888 8888888888 "Y8888P"   
+         (| |)             
+          | '              
+          `-'                                                                QDX TECHNOLOGIES 
+
+---------------------------------------------------------------------------------------------
+   Melisa Alkan           Giuseppe Barca         Hamish Brown           Jorge Galvez-Vallejo
+   Andrew Gilbert         Min Htoo               Fazeleh Kazemian       Sean Laguna         
+   Jack Miller            Elise Palethorpe       David Poole            Oliver Pulsford     
+   Ross Pure              Christopher Seidl      Joshua Singla          Calum Snowdon       
+   Ryan Stocks            Ryan Swart             Fiona Yu            
+---------------------------------------------------------------------------------------------
+
+Commit no. used 662daa59766df523725d86feeb224a6fdee52b20
+
+Start of Calculation Local time: 2024-03-05 12:39:23
+Start of Calculation UTC time:   2024-03-05 20:39:23
+
+Discarding rank 2303 with local rank 8
+├── Calculation params
+│   ├── Title: sphere
+│   ├── Model
+│   │   ├── Theory level: RIMP2
+│   │   ├── Spin configuration: RESTRICTED
+│   │   ├── Primary basis: cc-pVDZ
+│   │   ├── Auxiliary basis: cc-pVDZ-RIFIT
+│   │   ├── Force cartesian basis sets: True
+│   │   ├── Standard orientation: FULL_SYSTEM
+│   ├── Topologies
+│   │   ├── Number of topologies: 1
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 50
+│   │   │   ├── Batch size: 2560
+│   │   │   ├── DIIS size: 10
+│   │   │   ├── Convergence threshold: 1.000e-08
+│   │   │   ├── Use guess fallback: False
+│   │   │   ├── Convergence metric: DIIS
+│   │   │   ├── Density threshold: 1.000e-10
+│   │   │   ├── RIHF: True
+│   │   ├── Fragmentation keywords
+│   │   │   ├── Fragmented energy type: Total
+│   │   │   ├── Fragmentation level: TRIMER
+│   │   │   ├── Cutoff type: CLOSEST_PAIR
+│   │   │   ├── Fragmentation Cutoffs
+│   │   │   │   ├── Current method
+│   │   │   │   │   ├── DIMER: 1.800
+│   │   │   │   │   ├── TRIMER: 1.400
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Debug keywords
+│   │   │   ├── Dry run: False
+│   │   │   ├── Subfragment XYZ debug: False
+│   │   ├── Export Keywords
+│   │   │   ├── Not exporting any matrices
+│   │   ├── Guess keywords
+│   │   │   ├── Superposition of monomer densities: False
+│   │   │   ├── Superposition of subfragment densities: False
+│   │   │   ├── Basis set projection: False
+│   │   ├── Boundary keywords
+│   │   │   ├── X
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Y
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Z
+│   │   │   │   ├── Type: NONE
+│   │   ├── Logging
+│   │   │   ├── Console logging
+│   │   │   │   ├── Level: LARGE_INFO
+│   │   │   │   ├── Prefix format: 
+│   │   │   ├── File logging
+│   │   │   │   ├── Level: VERBOSE
+│   │   │   │   ├── Prefix format: [%Y-%m-%d %H:%M:%S.{us} r{rank} {level}] 
+│   │   │   │   ├── Directory: /pscratch/sd/j/jg4/jorge-exess/log_aimd_n1536
+│   │   ├── Dynamics Keywords
+│   │   │   ├── Timestep (ps): 0.001
+│   │   │   ├── # timesteps: 3
+│   │   │   ├── Use async timesteps: True
+│   ├── System
+│   │   ├── Max GPU Memory: 30 GB
+│   │   ├── Oversubscribe GPUs: False
+│   │   ├── Teams per node: 4
+│   │   ├── # GPUs per team: 1
+
+Timestep 0 took 42.062074
+ Total RHF Energy: -40985.7194336778411525
+ Total MP2 OS Energy: -96.3320650248263917
+ Total MP2 SS Energy: -36.1396107355948075
+ Total MP2 Energy: -132.4716757592140368
+ Total MP2 Corrected Energy: -41118.1911086594191147
+Timestep 1 took 39.657025
+ Total RHF Energy: -40991.0759651346816099
+ Total MP2 OS Energy: -96.7034567188899530
+ Total MP2 SS Energy: -36.2372162512037974
+ Total MP2 Energy: -132.9406729692729812
+ Total MP2 Corrected Energy: -41124.0166385913253180
+Timestep 2 took 49.498954
+ Total RHF Energy: -40995.2355844276899006
+ Total MP2 OS Energy: -97.5907357628476433
+ Total MP2 SS Energy: -36.4880760533120636
+ Total MP2 Energy: -134.0788118170079031
+ Total MP2 Corrected Energy: -41129.3143967086725752
+Average timestep time: 39.657025
+Topology 0 time: 134.735769 s, performance: 62.68 PFLOP/s
+JSON file written to: json_logs/sphere.json
+Total flops: 8446 PFLOPS
+Performance: 61.31 PFLOP/s
+Have ran Jorge CI yet?
+
+Total processing time 1.5e+02 seconds

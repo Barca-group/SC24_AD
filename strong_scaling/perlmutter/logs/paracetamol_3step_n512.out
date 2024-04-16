@@ -1,0 +1,58 @@
+
+    _____  _  _____    
+   (___  \( )/  ___)      888    888 8888888888 8888888b.  888b     d888 8888888888 .d8888b.  
+     (___ | | ___)        888    888 888        888   Y88b 8888b   d8888 888       d88P  Y88b 
+        /"| ("\           888    888 888        888    888 88888b.d88888 888       Y88b.   
+       ( (| |) )          8888888888 8888888    888   d88P 888Y88888P888 8888888    "Y888b.  
+        `.!' .'           888    888 888        8888888P"  888 Y888P 888 888           "Y88b. 
+         / .'\            888    888 888        888 T88b   888  Y8P  888 888             "888 
+         \|/ /            888    888 888        888  T88b  888   "   888 888       Y88b  d88P 
+          /.<             888    888 8888888888 888   T88b 888       888 8888888888 "Y8888P"   
+         (| |)             
+          | '              
+          `-'                                                                QDX TECHNOLOGIES 
+
+---------------------------------------------------------------------------------------------
+   Melisa Alkan           Giuseppe Barca         Hamish Brown           Jorge Galvez-Vallejo
+   Andrew Gilbert         Min Htoo               Fazeleh Kazemian       Sean Laguna         
+   Jack Miller            Elise Palethorpe       David Poole            Oliver Pulsford     
+   Ross Pure              Christopher Seidl      Joshua Singla          Calum Snowdon       
+   Ryan Stocks            Ryan Swart             Fiona Yu            
+---------------------------------------------------------------------------------------------
+
+Commit no. used 662daa59766df523725d86feeb224a6fdee52b20
+
+Start of Calculation Local time: 2024-03-03 18:54:37
+Start of Calculation UTC time:   2024-03-04 02:54:37
+
+
+Timestep 0 took 122.076070
+ Total RHF Energy: -40985.7194249273525202
+ Total MP2 OS Energy: -96.3320648779314155
+ Total MP2 SS Energy: -36.1396105947958404
+ Total MP2 Energy: -132.4716754720874690
+ Total MP2 Corrected Energy: -41118.1911001935950480
+Timestep 1 took 120.418123
+ Total RHF Energy: -40991.0759630040629418
+ Total MP2 OS Energy: -96.7034568283263951
+ Total MP2 SS Energy: -36.2372162953918107
+ Total MP2 Energy: -132.9406731227473415
+ Total MP2 Corrected Energy: -41124.0166367476194864
+Timestep 2 took 128.913749
+ Total RHF Energy: -40995.2355890169710619
+ Total MP2 OS Energy: -97.5907359201125644
+ Total MP2 SS Energy: -36.4880761464985000
+ Total MP2 Energy: -134.0788120667004648
+ Total MP2 Corrected Energy: -41129.3144016466903850
+
+Average timestep time: 120.418123
+Topology 0 time: 374.890665 s, performance: 22.53 PFLOP/s
+JSON file written to: json_logs/sphere.json
+Total flops: 8446 PFLOPS
+Performance: 22.48 PFLOP/s
+
+Question of the day, as per Calum (2022) 
+ You mentioned this is written in C++, have you considered using a more efficient language like FORTRAN? 
+
+Total processing time 8.3e+02 seconds
+Logs saved to "/pscratch/sd/j/jg4/jorge-exess/log_aimd_n512/0.log"

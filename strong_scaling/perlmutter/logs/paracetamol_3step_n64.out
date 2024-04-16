@@ -1,0 +1,118 @@
+
+    _____  _  _____    
+   (___  \( )/  ___)      888    888 8888888888 8888888b.  888b     d888 8888888888 .d8888b.  
+     (___ | | ___)        888    888 888        888   Y88b 8888b   d8888 888       d88P  Y88b 
+        /"| ("\           888    888 888        888    888 88888b.d88888 888       Y88b.   
+       ( (| |) )          8888888888 8888888    888   d88P 888Y88888P888 8888888    "Y888b.  
+        `.!' .'           888    888 888        8888888P"  888 Y888P 888 888           "Y88b. 
+         / .'\            888    888 888        888 T88b   888  Y8P  888 888             "888 
+         \|/ /            888    888 888        888  T88b  888   "   888 888       Y88b  d88P 
+          /.<             888    888 8888888888 888   T88b 888       888 8888888888 "Y8888P"   
+         (| |)             
+          | '              
+          `-'                                                                QDX TECHNOLOGIES 
+
+---------------------------------------------------------------------------------------------
+   Melisa Alkan           Giuseppe Barca         Hamish Brown           Jorge Galvez-Vallejo
+   Andrew Gilbert         Min Htoo               Fazeleh Kazemian       Sean Laguna         
+   Jack Miller            Elise Palethorpe       David Poole            Oliver Pulsford     
+   Ross Pure              Christopher Seidl      Joshua Singla          Calum Snowdon       
+   Ryan Stocks            Ryan Swart             Fiona Yu            
+---------------------------------------------------------------------------------------------
+
+Commit no. used 662daa59766df523725d86feeb224a6fdee52b20
+
+Start of Calculation Local time: 2024-03-06 07:04:33
+Start of Calculation UTC time:   2024-03-06 15:04:33
+
+├── Calculation params
+│   ├── Title: sphere
+│   ├── Model
+│   │   ├── Theory level: RIMP2
+│   │   ├── Spin configuration: RESTRICTED
+│   │   ├── Primary basis: cc-pVDZ
+│   │   ├── Auxiliary basis: cc-pVDZ-RIFIT
+│   │   ├── Force cartesian basis sets: True
+│   │   ├── Standard orientation: FULL_SYSTEM
+│   ├── Topologies
+│   │   ├── Number of topologies: 1
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 50
+│   │   │   ├── Batch size: 2560
+│   │   │   ├── DIIS size: 10
+│   │   │   ├── Convergence threshold: 1.000e-08
+│   │   │   ├── Use guess fallback: False
+│   │   │   ├── Convergence metric: DIIS
+│   │   │   ├── Density threshold: 1.000e-10
+│   │   │   ├── RIHF: True
+│   │   ├── Fragmentation keywords
+│   │   │   ├── Fragmented energy type: Total
+│   │   │   ├── Fragmentation level: TRIMER
+│   │   │   ├── Cutoff type: CLOSEST_PAIR
+│   │   │   ├── Fragmentation Cutoffs
+│   │   │   │   ├── Current method
+│   │   │   │   │   ├── DIMER: 1.800
+│   │   │   │   │   ├── TRIMER: 1.400
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Debug keywords
+│   │   │   ├── Dry run: False
+│   │   │   ├── Subfragment XYZ debug: False
+│   │   ├── Export Keywords
+│   │   │   ├── Not exporting any matrices
+│   │   ├── Guess keywords
+│   │   │   ├── Superposition of monomer densities: False
+│   │   │   ├── Superposition of subfragment densities: False
+│   │   │   ├── Basis set projection: False
+│   │   ├── Boundary keywords
+│   │   │   ├── X
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Y
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Z
+│   │   │   │   ├── Type: NONE
+│   │   ├── Logging
+│   │   │   ├── Console logging
+│   │   │   │   ├── Level: LARGE_INFO
+│   │   │   │   ├── Prefix format: 
+│   │   ├── Dynamics Keywords
+│   │   │   ├── Timestep (ps): 0.001
+│   │   │   ├── # timesteps: 3
+│   │   │   ├── Use async timesteps: True
+│   ├── System
+│   │   ├── Max GPU Memory: 30 GB
+│   │   ├── Oversubscribe GPUs: False
+│   │   ├── Teams per node: 4
+│   │   ├── # GPUs per team: 1
+
+
+Timestep 0 took 974.109430
+ Total RHF Energy: -40985.7194344542658655
+ Total MP2 OS Energy: -96.3320650605520683
+ Total MP2 SS Energy: -36.1396107548587366
+ Total MP2 Energy: -132.4716758139493322
+ Total MP2 Corrected Energy: -41118.1911100881770835
+Timestep 1 took 969.968559
+ Total RHF Energy: -40991.0759541243751300
+ Total MP2 OS Energy: -96.7034566664007258
+ Total MP2 SS Energy: -36.2372161876697305
+ Total MP2 Energy: -132.9406728546060776
+ Total MP2 Corrected Energy: -41124.0166266219312092
+Timestep 2 took 978.794700
+ Total RHF Energy: -40995.2355900140173617
+ Total MP2 OS Energy: -97.5907358717329885
+ Total MP2 SS Energy: -36.4880761095905086
+ Total MP2 Energy: -134.0788119808378269
+ Total MP2 Corrected Energy: -41129.3144019136161660
+
+Average timestep time: 969.968559
+Topology 0 time: 2926.728904 s, performance: 2.886 PFLOP/s
+JSON file written to: json_logs/sphere.json
+Total flops: 8446 PFLOPS
+Performance: 2.885 PFLOP/s
+
+Similar to the Necronomicon, a C++ source code file is a wicked, obscure document that’s filled 
+ with cryptic incantations and forbidden knowledge. (James Mickens) 
+
+Total processing time 2.9e+03 seconds

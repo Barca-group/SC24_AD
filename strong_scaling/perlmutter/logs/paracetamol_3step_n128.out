@@ -1,0 +1,120 @@
+
+    _____  _  _____    
+   (___  \( )/  ___)      888    888 8888888888 8888888b.  888b     d888 8888888888 .d8888b.  
+     (___ | | ___)        888    888 888        888   Y88b 8888b   d8888 888       d88P  Y88b 
+        /"| ("\           888    888 888        888    888 88888b.d88888 888       Y88b.   
+       ( (| |) )          8888888888 8888888    888   d88P 888Y88888P888 8888888    "Y888b.  
+        `.!' .'           888    888 888        8888888P"  888 Y888P 888 888           "Y88b. 
+         / .'\            888    888 888        888 T88b   888  Y8P  888 888             "888 
+         \|/ /            888    888 888        888  T88b  888   "   888 888       Y88b  d88P 
+          /.<             888    888 8888888888 888   T88b 888       888 8888888888 "Y8888P"   
+         (| |)             
+          | '              
+          `-'                                                                QDX TECHNOLOGIES 
+
+---------------------------------------------------------------------------------------------
+   Melisa Alkan           Giuseppe Barca         Hamish Brown           Jorge Galvez-Vallejo
+   Andrew Gilbert         Min Htoo               Fazeleh Kazemian       Sean Laguna         
+   Jack Miller            Elise Palethorpe       David Poole            Oliver Pulsford     
+   Ross Pure              Christopher Seidl      Joshua Singla          Calum Snowdon       
+   Ryan Stocks            Ryan Swart             Fiona Yu            
+---------------------------------------------------------------------------------------------
+
+Commit no. used 662daa59766df523725d86feeb224a6fdee52b20
+
+Start of Calculation Local time: 2024-03-03 07:06:15
+Start of Calculation UTC time:   2024-03-03 15:06:15
+
+├── Calculation params
+│   ├── Title: sphere
+│   ├── Model
+│   │   ├── Theory level: RIMP2
+│   │   ├── Spin configuration: RESTRICTED
+│   │   ├── Primary basis: cc-pVDZ
+│   │   ├── Auxiliary basis: cc-pVDZ-RIFIT
+│   │   ├── Force cartesian basis sets: True
+│   │   ├── Standard orientation: FULL_SYSTEM
+│   ├── Topologies
+│   │   ├── Number of topologies: 1
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 50
+│   │   │   ├── Batch size: 2560
+│   │   │   ├── DIIS size: 10
+│   │   │   ├── Convergence threshold: 1.000e-08
+│   │   │   ├── Use guess fallback: False
+│   │   │   ├── Convergence metric: DIIS
+│   │   │   ├── Density threshold: 1.000e-10
+│   │   │   ├── RIHF: True
+│   │   ├── Fragmentation keywords
+│   │   │   ├── Fragmented energy type: Total
+│   │   │   ├── Fragmentation level: TRIMER
+│   │   │   ├── Cutoff type: CLOSEST_PAIR
+│   │   │   ├── Fragmentation Cutoffs
+│   │   │   │   ├── Current method
+│   │   │   │   │   ├── DIMER: 1.800
+│   │   │   │   │   ├── TRIMER: 1.400
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Debug keywords
+│   │   │   ├── Dry run: False
+│   │   │   ├── Subfragment XYZ debug: False
+│   │   ├── Export Keywords
+│   │   │   ├── Not exporting any matrices
+│   │   ├── Guess keywords
+│   │   │   ├── Superposition of monomer densities: False
+│   │   │   ├── Superposition of subfragment densities: False
+│   │   │   ├── Basis set projection: False
+│   │   ├── Boundary keywords
+│   │   │   ├── X
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Y
+│   │   │   │   ├── Type: NONE
+│   │   │   ├── Z
+│   │   │   │   ├── Type: NONE
+│   │   ├── Logging
+│   │   │   ├── Console logging
+│   │   │   │   ├── Level: LARGE_INFO
+│   │   │   │   ├── Prefix format: 
+│   │   │   ├── File logging
+│   │   │   │   ├── Level: VERBOSE
+│   │   │   │   ├── Prefix format: [%Y-%m-%d %H:%M:%S.{us} r{rank} {level}] 
+│   │   │   │   ├── Directory: /pscratch/sd/j/jg4/jorge-exess/log_aimd_n128
+│   │   ├── Dynamics Keywords
+│   │   │   ├── Timestep (ps): 0.001
+│   │   │   ├── # timesteps: 3
+│   │   │   ├── Use async timesteps: True
+│   ├── System
+│   │   ├── Max GPU Memory: 30 GB
+│   │   ├── Oversubscribe GPUs: False
+│   │   ├── Teams per node: 4
+│   │   ├── # GPUs per team: 1
+
+Timestep 0 took 485.903142
+ Total RHF Energy: -40995.2355924791190773
+ Total MP2 OS Energy: -97.5907359139437176
+ Total MP2 SS Energy: -36.4880760936366642
+ Total MP2 Energy: -134.0788120078561576
+ Total MP2 Corrected Energy: -41129.3144044029249926
+Timestep 1 took 483.793490
+ Total RHF Energy: -40985.7194298048125347
+ Total MP2 OS Energy: -96.3320649489380259
+ Total MP2 SS Energy: -36.1396106724868460
+ Total MP2 Energy: -132.4716756217788145
+ Total MP2 Corrected Energy: -41118.1911050402341061
+Timestep 2 took 492.283481
+ Total RHF Energy: -40991.0759581662205164
+ Total MP2 OS Energy: -96.7034567880087081
+ Total MP2 SS Energy: -36.2372162959031172
+ Total MP2 Energy: -132.9406730821727933
+ Total MP2 Corrected Energy: -41124.0166311893335660
+Average timestep time: 483.793490
+Topology 0 time: 1465.867590 s, performance: 5.761 PFLOP/s
+JSON file written to: json_logs/sphere.json
+Total flops: 8446 PFLOPS
+Performance: 5.758 PFLOP/s
+
+The clown has carried us (Mexican saying)
+
+Total processing time 1.5e+03 seconds
+Logs saved to "/pscratch/sd/j/jg4/jorge-exess/log_aimd_n128/0.log"
